@@ -10,6 +10,9 @@
 		<title><?php echo $data["titulo"]; ?></title>
 
 		<link rel="stylesheet" href="assets/css/styleAdmin2.css">
+		<link rel="stylesheet" href="package/dist/sweetalert2.min.css">
+		<script src="package/dist/sweetalert2.all.min.js" ></script>
+		<script src="assets/js/sweetAlert.js"></script>
 
 	</head>
 	
@@ -49,7 +52,10 @@
 					<input class="box" type="password" class="form-control" id="contrasena" name="contrasena" value="<?php echo $data["usuarios"]["contrasena"];?>" />
 
 					<input class="btn" id="guardar" value="Guardar" name="guardar" type="submit" >
-					<a class="btn" id="btna" href="index.php">Cancelar</a>
+					<a class="btn" id="btna" <?php echo "onclick='cancelarPersona(1)'" ?>>Cancelar</a>
+					 
 			</form>
+		<script src="package/dist/sweetalert2.all.min.js" ></script>
+		<script src="assets/js/sweetAlert.js"></script>
 		</body>
 	</html>		

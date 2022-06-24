@@ -9,6 +9,8 @@
 		<script src="assets/js/bootstrap.min.js" ></script>
         <script src="package/dist/sweetalert2.all.min.js" ></script>
         <script src="assets/js/sweetAlert.js"></script>
+        <link rel="stylesheet" href="package/dist/sweetalert2.min.css">
+
 
         <link rel="stylesheet" href="assets/css/styleAdmin.css">
 	</head>

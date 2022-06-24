@@ -1,5 +1,7 @@
 <script src="package/dist/sweetalert2.all.min.js" ></script>
 <script src="assets/js/sweetAlert.js"></script>
+<link rel="stylesheet" href="package/dist/sweetalert2.min.css">
+
 <?php
 	
 	require_once "config/config.php";

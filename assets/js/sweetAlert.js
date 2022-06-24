@@ -89,3 +89,11 @@ function fntDelPersona1(idUsuario){
         }
 
 }
+
+
+function cancelarPersona(id){
+
+    Swal.fire('Any fool can use a computer')
+   // location.href='index.php';
+
+}
